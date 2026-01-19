@@ -10,18 +10,18 @@ See: .planning/PROJECT.md (updated 2026-01-19)
 ## Current Position
 
 Phase: 3 of 4 (Optimization)
-Plan: 1 of 3 in current phase
+Plan: 2 of 3 in current phase
 Status: In progress
-Last activity: 2026-01-19 - Completed 03-01-PLAN.md (Almgren-Chriss Framework)
+Last activity: 2026-01-19 - Completed 03-02-PLAN.md (Baseline Execution Strategies)
 
-Progress: [######----] 60%
+Progress: [#######---] 70%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 6
+- Total plans completed: 7
 - Average duration: 4m
-- Total execution time: 25m
+- Total execution time: 33m
 
 **By Phase:**
 
@@ -29,11 +29,11 @@ Progress: [######----] 60%
 |-------|-------|-------|----------|
 | 1. Foundation | 2/2 | 7m | 3.5m |
 | 2. Cost Analytics | 3/3 | 13m | 4.3m |
-| 3. Optimization | 1/3 | 5m | 5m |
+| 3. Optimization | 2/3 | 13m | 6.5m |
 | 4. Simulation | 0/TBD | - | - |
 
 **Recent Trend:**
-- Last 5 plans: 01-02 (4m), 02-01 (3m), 02-02 (4m), 02-03 (6m), 03-01 (5m)
+- Last 5 plans: 02-01 (3m), 02-02 (4m), 02-03 (6m), 03-01 (5m), 03-02 (8m)
 - Trend: stable
 
 *Updated after each plan completion*
@@ -60,6 +60,9 @@ Recent decisions affecting current work:
 - [03-01]: Risk-neutral (lambda=0) produces TWAP automatically via A-C math
 - [03-01]: eta_tilde constraint violation falls back to TWAP with warning
 - [03-01]: A-C heuristics: 1% ADV = full spread (temp), 10% ADV = full spread (perm)
+- [03-02]: TWAP randomization default 10% for avoiding detection
+- [03-02]: VWAP falls back to TWAP when volume profile sums to zero
+- [03-02]: risk_aversion=inf for market order (infinite timing risk aversion)
 
 ### Pending Todos
 
@@ -72,5 +75,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-01-19
-Stopped at: Completed 03-01-PLAN.md - Almgren-Chriss Framework
+Stopped at: Completed 03-02-PLAN.md - Baseline Execution Strategies
 Resume file: None
