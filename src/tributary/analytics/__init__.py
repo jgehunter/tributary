@@ -25,6 +25,12 @@ from tributary.analytics.impact import (
     CalibrationResult,
     calibrate_impact_parameters,
 )
+from tributary.analytics.optimization import (
+    AlmgrenChrissParams,
+    ExecutionTrajectory,
+    calibrate_ac_params,
+    generate_ac_trajectory,
+)
 
 __all__ = [
     # Reader
@@ -49,4 +55,9 @@ __all__ = [
     "estimate_market_impact",
     "CalibrationResult",
     "calibrate_impact_parameters",
+    # Optimization
+    "AlmgrenChrissParams",
+    "ExecutionTrajectory",
+    "calibrate_ac_params",
+    "generate_ac_trajectory",
 ]
