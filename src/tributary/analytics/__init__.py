@@ -42,6 +42,7 @@ from tributary.analytics.optimization import (
     compare_strategies,
     execution_profile_chart,
 )
+from tributary.analytics import simulation
 
 __all__ = [
     # Reader
@@ -85,4 +86,6 @@ __all__ = [
     "StrategyComparison",
     "compare_strategies",
     "execution_profile_chart",
+    # Simulation module
+    "simulation",
 ]

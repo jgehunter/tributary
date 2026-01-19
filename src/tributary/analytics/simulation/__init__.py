@@ -50,13 +50,31 @@ from tributary.analytics.simulation.events import (
 from tributary.analytics.simulation.fill_model import FillModel
 from tributary.analytics.simulation.engine import SimulationEngine
 from tributary.analytics.simulation.runner import StrategyRun, StrategyRunner
+from tributary.analytics.simulation.metrics import calculate_simulation_metrics
+from tributary.analytics.simulation.results import (
+    SimulationResult,
+    create_simulation_result,
+    compare_simulation_results,
+    execution_chart_data,
+)
 
 __all__ = [
+    # Events
     "MarketEvent",
     "OrderEvent",
     "FillEvent",
+    # Fill model
     "FillModel",
+    # Engine
     "SimulationEngine",
+    # Runner
     "StrategyRun",
     "StrategyRunner",
+    # Metrics
+    "calculate_simulation_metrics",
+    # Results
+    "SimulationResult",
+    "create_simulation_result",
+    "compare_simulation_results",
+    "execution_chart_data",
 ]
