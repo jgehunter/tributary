@@ -77,11 +77,12 @@ Plans:
   3. User can compare multiple strategies on the same historical period
   4. User can see clear metrics (cost, risk, shortfall) for each strategy
   5. Backtests demonstrate better execution with optimized strategies vs naive approaches
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 04-01: TBD
-- [ ] 04-02: TBD
+- [ ] 04-01-PLAN.md - Event types and fill model with liquidity consumption (SIM-01, SIM-02)
+- [ ] 04-02-PLAN.md - Simulation engine and multi-strategy runner (SIM-01, SIM-03)
+- [ ] 04-03-PLAN.md - Metrics calculation and strategy comparison (SIM-04, SIM-05)
 
 ## Progress
 
@@ -93,7 +94,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 | 1. Foundation | 2/2 | Complete | 2026-01-19 |
 | 2. Cost Analytics | 3/3 | Complete | 2026-01-19 |
 | 3. Optimization | 3/3 | Complete | 2026-01-19 |
-| 4. Simulation | 0/TBD | Not started | - |
+| 4. Simulation | 0/3 | Planned | - |
 
 ---
 *Roadmap created: 2026-01-19*
@@ -103,3 +104,4 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 *Phase 2 complete: 2026-01-19*
 *Phase 3 planned: 2026-01-19*
 *Phase 3 complete: 2026-01-19*
+*Phase 4 planned: 2026-01-19*
