@@ -51,6 +51,8 @@ Recent decisions affecting current work:
 - [01-01]: Regex validation for SAMPLE BY intervals (prevents SQL injection)
 - [01-02]: Use pandas resample() for TWAP interval buckets (native time-series handling)
 - [01-02]: Return float('nan') for empty/invalid inputs (consistent with numpy/pandas conventions)
+- [02-01]: Positive slippage = cost (unfavorable) for both buy and sell sides
+- [02-01]: Perold framework for shortfall decomposition (delay, trading, spread, opportunity)
 - [02-02]: Walk-the-book as PRIMARY cost forecasting method (direct orderbook measurement, not model-based)
 
 ### Pending Todos
