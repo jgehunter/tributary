@@ -13,7 +13,7 @@ Phase 2 (Execution Intelligence) transforms Tributary from a data collection fra
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Foundation** - QuestDB reader and core benchmarks (VWAP, TWAP, arrival price)
-- [ ] **Phase 2: Cost Analytics** - Slippage measurement and market impact estimation
+- [x] **Phase 2: Cost Analytics** - Slippage measurement and market impact estimation
 - [ ] **Phase 3: Optimization** - Almgren-Chriss framework and execution strategies
 - [ ] **Phase 4: Simulation** - Backtesting engine that proves better execution
 
@@ -47,9 +47,9 @@ Plans:
 **Plans**: 3 plans
 
 Plans:
-- [ ] 02-01-PLAN.md - Slippage calculation and implementation shortfall decomposition (COST-04, COST-05)
-- [ ] 02-02-PLAN.md - Orderbook-based cost forecasting / walk-the-book (COST-08)
-- [ ] 02-03-PLAN.md - Market impact estimation and parameter calibration (COST-06, COST-07)
+- [x] 02-01-PLAN.md - Slippage calculation and implementation shortfall decomposition (COST-04, COST-05)
+- [x] 02-02-PLAN.md - Orderbook-based cost forecasting / walk-the-book (COST-08)
+- [x] 02-03-PLAN.md - Market impact estimation and parameter calibration (COST-06, COST-07)
 
 ### Phase 3: Optimization
 **Goal**: Generate optimal execution trajectories and compare strategies
@@ -60,11 +60,12 @@ Plans:
   2. User can generate optimal execution trajectories for a given order and risk aversion
   3. User can run TWAP, VWAP, and market order baseline strategies
   4. User can compare strategy outputs (timing, sizing) before simulation
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 03-01: TBD
-- [ ] 03-02: TBD
+- [ ] 03-01-PLAN.md - Almgren-Chriss parameter calibration and trajectory generation (OPT-01, OPT-02)
+- [ ] 03-02-PLAN.md - Baseline strategies: TWAP, VWAP, market order (OPT-03, OPT-04, OPT-05)
+- [ ] 03-03-PLAN.md - Trade scheduler optimizer and strategy comparison (OPT-06)
 
 ### Phase 4: Simulation
 **Goal**: Prove better execution vs naive approaches through backtesting
@@ -90,8 +91,8 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 2/2 | Complete | 2026-01-19 |
-| 2. Cost Analytics | 0/3 | Planned | - |
-| 3. Optimization | 0/TBD | Not started | - |
+| 2. Cost Analytics | 3/3 | Complete | 2026-01-19 |
+| 3. Optimization | 0/3 | Planned | - |
 | 4. Simulation | 0/TBD | Not started | - |
 
 ---
@@ -99,3 +100,5 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 *Phase 1 planned: 2026-01-19*
 *Phase 1 complete: 2026-01-19*
 *Phase 2 planned: 2026-01-19*
+*Phase 2 complete: 2026-01-19*
+*Phase 3 planned: 2026-01-19*
