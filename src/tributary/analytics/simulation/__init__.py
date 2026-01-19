@@ -49,6 +49,7 @@ from tributary.analytics.simulation.events import (
 )
 from tributary.analytics.simulation.fill_model import FillModel
 from tributary.analytics.simulation.engine import SimulationEngine
+from tributary.analytics.simulation.runner import StrategyRun, StrategyRunner
 
 __all__ = [
     "MarketEvent",
@@ -56,4 +57,6 @@ __all__ = [
     "FillEvent",
     "FillModel",
     "SimulationEngine",
+    "StrategyRun",
+    "StrategyRunner",
 ]
