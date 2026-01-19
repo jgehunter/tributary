@@ -30,6 +30,10 @@ from tributary.analytics.optimization import (
     ExecutionTrajectory,
     calibrate_ac_params,
     generate_ac_trajectory,
+    generate_twap_trajectory,
+    generate_vwap_trajectory,
+    generate_market_order_trajectory,
+    get_volume_profile_from_db,
 )
 
 __all__ = [
@@ -60,4 +64,8 @@ __all__ = [
     "ExecutionTrajectory",
     "calibrate_ac_params",
     "generate_ac_trajectory",
+    "generate_twap_trajectory",
+    "generate_vwap_trajectory",
+    "generate_market_order_trajectory",
+    "get_volume_profile_from_db",
 ]
