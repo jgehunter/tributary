@@ -44,11 +44,12 @@ Plans:
   2. User can decompose implementation shortfall into timing, impact, and spread components
   3. User can estimate temporary and permanent market impact from historical data
   4. User can forecast execution cost for a given order size ("what would $X cost?")
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 02-01: TBD
-- [ ] 02-02: TBD
+- [ ] 02-01-PLAN.md - Slippage calculation and implementation shortfall decomposition (COST-04, COST-05)
+- [ ] 02-02-PLAN.md - Orderbook-based cost forecasting / walk-the-book (COST-08)
+- [ ] 02-03-PLAN.md - Market impact estimation and parameter calibration (COST-06, COST-07)
 
 ### Phase 3: Optimization
 **Goal**: Generate optimal execution trajectories and compare strategies
@@ -89,7 +90,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 2/2 | Complete | 2026-01-19 |
-| 2. Cost Analytics | 0/TBD | Not started | - |
+| 2. Cost Analytics | 0/3 | Planned | - |
 | 3. Optimization | 0/TBD | Not started | - |
 | 4. Simulation | 0/TBD | Not started | - |
 
@@ -97,4 +98,4 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 *Roadmap created: 2026-01-19*
 *Phase 1 planned: 2026-01-19*
 *Phase 1 complete: 2026-01-19*
-*Phase 2: Execution Intelligence milestone*
+*Phase 2 planned: 2026-01-19*
