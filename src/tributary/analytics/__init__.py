@@ -34,6 +34,13 @@ from tributary.analytics.optimization import (
     generate_vwap_trajectory,
     generate_market_order_trajectory,
     get_volume_profile_from_db,
+    ScheduleConstraints,
+    TradeSchedule,
+    optimize_schedule,
+    calculate_optimal_intervals,
+    StrategyComparison,
+    compare_strategies,
+    execution_profile_chart,
 )
 
 __all__ = [
@@ -59,13 +66,23 @@ __all__ = [
     "estimate_market_impact",
     "CalibrationResult",
     "calibrate_impact_parameters",
-    # Optimization
+    # Optimization - Almgren-Chriss
     "AlmgrenChrissParams",
     "ExecutionTrajectory",
     "calibrate_ac_params",
     "generate_ac_trajectory",
+    # Optimization - Baseline Strategies
     "generate_twap_trajectory",
     "generate_vwap_trajectory",
     "generate_market_order_trajectory",
     "get_volume_profile_from_db",
+    # Optimization - Scheduler
+    "ScheduleConstraints",
+    "TradeSchedule",
+    "optimize_schedule",
+    "calculate_optimal_intervals",
+    # Optimization - Comparison
+    "StrategyComparison",
+    "compare_strategies",
+    "execution_profile_chart",
 ]
