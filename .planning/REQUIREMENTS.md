@@ -18,23 +18,23 @@ Requirements for Phase 2: Execution Intelligence. Each maps to roadmap phases.
 - [x] **COST-01**: Calculate VWAP for any time window and market
 - [x] **COST-02**: Calculate TWAP for any time window and market
 - [x] **COST-03**: Calculate arrival price (mid-price at order submission time)
-- [ ] **COST-04**: Calculate slippage in basis points (expected vs actual execution)
+- [x] **COST-04**: Calculate slippage in basis points (expected vs actual execution)
 
 ### Cost Analytics
 
-- [ ] **COST-05**: Decompose implementation shortfall into timing, impact, and spread components
-- [ ] **COST-06**: Estimate temporary market impact from orderbook/trade data
-- [ ] **COST-07**: Estimate permanent market impact from orderbook/trade data
-- [ ] **COST-08**: Forecast execution cost for a given order size ("what would $X cost?")
+- [x] **COST-05**: Decompose implementation shortfall into timing, impact, and spread components
+- [x] **COST-06**: Estimate temporary market impact from orderbook/trade data
+- [x] **COST-07**: Estimate permanent market impact from orderbook/trade data
+- [x] **COST-08**: Forecast execution cost for a given order size ("what would $X cost?")
 
 ### Optimization
 
-- [ ] **OPT-01**: Calibrate Almgren-Chriss parameters from historical data
-- [ ] **OPT-02**: Generate optimal execution trajectories using Almgren-Chriss framework
-- [ ] **OPT-03**: Implement TWAP execution strategy
-- [ ] **OPT-04**: Implement VWAP execution strategy
-- [ ] **OPT-05**: Implement market order baseline strategy
-- [ ] **OPT-06**: Trade scheduling optimizer (optimal slice timing and sizing)
+- [x] **OPT-01**: Calibrate Almgren-Chriss parameters from historical data
+- [x] **OPT-02**: Generate optimal execution trajectories using Almgren-Chriss framework
+- [x] **OPT-03**: Implement TWAP execution strategy
+- [x] **OPT-04**: Implement VWAP execution strategy
+- [x] **OPT-05**: Implement market order baseline strategy
+- [x] **OPT-06**: Trade scheduling optimizer (optimal slice timing and sizing)
 
 ### Simulation
 
@@ -92,17 +92,17 @@ Which phases cover which requirements. Updated during roadmap creation.
 | COST-01 | Phase 1 | Complete |
 | COST-02 | Phase 1 | Complete |
 | COST-03 | Phase 1 | Complete |
-| COST-04 | Phase 2 | Pending |
-| COST-05 | Phase 2 | Pending |
-| COST-06 | Phase 2 | Pending |
-| COST-07 | Phase 2 | Pending |
-| COST-08 | Phase 2 | Pending |
-| OPT-01 | Phase 3 | Pending |
-| OPT-02 | Phase 3 | Pending |
-| OPT-03 | Phase 3 | Pending |
-| OPT-04 | Phase 3 | Pending |
-| OPT-05 | Phase 3 | Pending |
-| OPT-06 | Phase 3 | Pending |
+| COST-04 | Phase 2 | Complete |
+| COST-05 | Phase 2 | Complete |
+| COST-06 | Phase 2 | Complete |
+| COST-07 | Phase 2 | Complete |
+| COST-08 | Phase 2 | Complete |
+| OPT-01 | Phase 3 | Complete |
+| OPT-02 | Phase 3 | Complete |
+| OPT-03 | Phase 3 | Complete |
+| OPT-04 | Phase 3 | Complete |
+| OPT-05 | Phase 3 | Complete |
+| OPT-06 | Phase 3 | Complete |
 | SIM-01 | Phase 4 | Pending |
 | SIM-02 | Phase 4 | Pending |
 | SIM-03 | Phase 4 | Pending |
@@ -116,4 +116,4 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 ---
 *Requirements defined: 2026-01-19*
-*Last updated: 2026-01-19 after Phase 1 completion*
+*Last updated: 2026-01-19 after Phase 3 completion*

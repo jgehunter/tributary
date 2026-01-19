@@ -14,7 +14,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Foundation** - QuestDB reader and core benchmarks (VWAP, TWAP, arrival price)
 - [x] **Phase 2: Cost Analytics** - Slippage measurement and market impact estimation
-- [ ] **Phase 3: Optimization** - Almgren-Chriss framework and execution strategies
+- [x] **Phase 3: Optimization** - Almgren-Chriss framework and execution strategies
 - [ ] **Phase 4: Simulation** - Backtesting engine that proves better execution
 
 ## Phase Details
@@ -63,9 +63,9 @@ Plans:
 **Plans**: 3 plans
 
 Plans:
-- [ ] 03-01-PLAN.md - Almgren-Chriss parameter calibration and trajectory generation (OPT-01, OPT-02)
-- [ ] 03-02-PLAN.md - Baseline strategies: TWAP, VWAP, market order (OPT-03, OPT-04, OPT-05)
-- [ ] 03-03-PLAN.md - Trade scheduler optimizer and strategy comparison (OPT-06)
+- [x] 03-01-PLAN.md - Almgren-Chriss parameter calibration and trajectory generation (OPT-01, OPT-02)
+- [x] 03-02-PLAN.md - Baseline strategies: TWAP, VWAP, market order (OPT-03, OPT-04, OPT-05)
+- [x] 03-03-PLAN.md - Trade scheduler optimizer and strategy comparison (OPT-06)
 
 ### Phase 4: Simulation
 **Goal**: Prove better execution vs naive approaches through backtesting
@@ -92,7 +92,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 |-------|----------------|--------|-----------|
 | 1. Foundation | 2/2 | Complete | 2026-01-19 |
 | 2. Cost Analytics | 3/3 | Complete | 2026-01-19 |
-| 3. Optimization | 0/3 | Planned | - |
+| 3. Optimization | 3/3 | Complete | 2026-01-19 |
 | 4. Simulation | 0/TBD | Not started | - |
 
 ---
@@ -102,3 +102,4 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 *Phase 2 planned: 2026-01-19*
 *Phase 2 complete: 2026-01-19*
 *Phase 3 planned: 2026-01-19*
+*Phase 3 complete: 2026-01-19*
