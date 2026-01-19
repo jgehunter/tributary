@@ -10,18 +10,18 @@ See: .planning/PROJECT.md (updated 2026-01-19)
 ## Current Position
 
 Phase: 4 of 4 (Simulation)
-Plan: 0 of TBD in current phase
-Status: Ready to plan
-Last activity: 2026-01-19 - Phase 3 complete, verified
+Plan: 1 of 3 in current phase
+Status: In progress
+Last activity: 2026-01-19 - Completed 04-01-PLAN.md (events and fill model)
 
-Progress: [########--] 75%
+Progress: [########=-] 80%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 8
-- Average duration: 4.8m
-- Total execution time: 38m
+- Total plans completed: 9
+- Average duration: 4.7m
+- Total execution time: 42m
 
 **By Phase:**
 
@@ -30,10 +30,10 @@ Progress: [########--] 75%
 | 1. Foundation | 2/2 | 7m | 3.5m |
 | 2. Cost Analytics | 3/3 | 13m | 4.3m |
 | 3. Optimization | 3/3 | 18m | 6.0m |
-| 4. Simulation | 0/TBD | - | - |
+| 4. Simulation | 1/3 | 4m | 4.0m |
 
 **Recent Trend:**
-- Last 5 plans: 02-02 (4m), 02-03 (6m), 03-01 (5m), 03-02 (8m), 03-03 (5m)
+- Last 5 plans: 02-03 (6m), 03-01 (5m), 03-02 (8m), 03-03 (5m), 04-01 (4m)
 - Trend: stable
 
 *Updated after each plan completion*
@@ -67,6 +67,9 @@ Recent decisions affecting current work:
 - [03-03]: Risk-averse A-C trajectories may slightly exceed participation limit due to front-loading
 - [03-03]: At least 2 strategies required for comparison
 - [03-03]: Long-format DataFrame for chart data (strategy x period rows)
+- [04-01]: Tuples for orderbook levels in frozen dataclasses (immutability)
+- [04-01]: Exponential recovery model with configurable half-life for liquidity
+- [04-01]: Track consumed liquidity per level index, not price
 
 ### Pending Todos
 
@@ -78,6 +81,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-01-19
-Stopped at: Phase 3 complete, verified - Ready for Phase 4 planning
+Last session: 2026-01-19 18:58 UTC
+Stopped at: Completed 04-01-PLAN.md (events and fill model)
 Resume file: None
