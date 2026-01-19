@@ -48,10 +48,12 @@ from tributary.analytics.simulation.events import (
     OrderEvent,
 )
 from tributary.analytics.simulation.fill_model import FillModel
+from tributary.analytics.simulation.engine import SimulationEngine
 
 __all__ = [
     "MarketEvent",
     "OrderEvent",
     "FillEvent",
     "FillModel",
+    "SimulationEngine",
 ]
