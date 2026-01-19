@@ -10,18 +10,18 @@ See: .planning/PROJECT.md (updated 2026-01-19)
 ## Current Position
 
 Phase: 4 of 4 (Simulation)
-Plan: 1 of 3 in current phase
+Plan: 2 of 3 in current phase
 Status: In progress
-Last activity: 2026-01-19 - Completed 04-01-PLAN.md (events and fill model)
+Last activity: 2026-01-19 - Completed 04-02-PLAN.md (engine and runner)
 
-Progress: [########=-] 80%
+Progress: [#########-] 90%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 9
+- Total plans completed: 10
 - Average duration: 4.7m
-- Total execution time: 42m
+- Total execution time: 47m
 
 **By Phase:**
 
@@ -30,10 +30,10 @@ Progress: [########=-] 80%
 | 1. Foundation | 2/2 | 7m | 3.5m |
 | 2. Cost Analytics | 3/3 | 13m | 4.3m |
 | 3. Optimization | 3/3 | 18m | 6.0m |
-| 4. Simulation | 1/3 | 4m | 4.0m |
+| 4. Simulation | 2/3 | 9m | 4.5m |
 
 **Recent Trend:**
-- Last 5 plans: 02-03 (6m), 03-01 (5m), 03-02 (8m), 03-03 (5m), 04-01 (4m)
+- Last 5 plans: 03-01 (5m), 03-02 (8m), 03-03 (5m), 04-01 (4m), 04-02 (5m)
 - Trend: stable
 
 *Updated after each plan completion*
@@ -70,6 +70,9 @@ Recent decisions affecting current work:
 - [04-01]: Tuples for orderbook levels in frozen dataclasses (immutability)
 - [04-01]: Exponential recovery model with configurable half-life for liquidity
 - [04-01]: Track consumed liquidity per level index, not price
+- [04-02]: Orders execute against most recent market state at or before order time (no lookahead)
+- [04-02]: Fresh FillModel per strategy for isolated execution in StrategyRunner
+- [04-02]: StrategyRun dataclass provides convenience aggregation properties
 
 ### Pending Todos
 
@@ -81,6 +84,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-01-19 18:58 UTC
-Stopped at: Completed 04-01-PLAN.md (events and fill model)
+Last session: 2026-01-19 19:05 UTC
+Stopped at: Completed 04-02-PLAN.md (engine and runner)
 Resume file: None
