@@ -1,0 +1,78 @@
+[project]
+name = "tributary"
+version = "0.1.0"
+description = "Market data collection and analytics for prediction markets"
+requires-python = ">=3.11"
+readme = "README.md"
+dependencies = [
+    # Core
+    "pydantic>=2.0",
+    "pyyaml>=6.0",
+    "python-dotenv>=1.0",
+
+    # Async HTTP
+    "aiohttp>=3.9",
+
+    # Scheduling
+    "apscheduler>=3.10",
+
+    # Polymarket
+    "py-clob-client>=0.17",
+    "eth-account>=0.10",
+
+    # QuestDB
+    "questdb>=2.0",
+    "psycopg2-binary>=2.9",
+
+    # CLI
+    "click>=8.0",
+    "rich>=13.0",
+
+    # Analytics
+    "pandas>=2.0",
+    "numpy>=1.26",
+    "statsmodels>=0.14",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-asyncio>=0.23",
+    "pytest-cov>=4.0",
+    "black>=24.0",
+    "ruff>=0.1",
+    "mypy>=1.0",
+]
+notebooks = [
+    "jupyter>=1.0",
+    "pandas>=2.0",
+    "numpy>=1.26",
+    "matplotlib>=3.8",
+    "seaborn>=0.13",
+    "sqlalchemy>=2.0",
+    "scipy>=1.11",
+    "plotly>=5.0",
+    "ipykernel>=6.0",
+]
+
+[project.scripts]
+tributary = "tributary.cli.commands:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.black]
+line-length = 100
+target-version = ["py311"]
