@@ -5,23 +5,23 @@
 See: .planning/PROJECT.md (updated 2026-01-19)
 
 **Core value:** Demonstrably reduce execution costs vs naive approaches
-**Current focus:** Phase 2 - Cost Analytics (slippage, market impact)
+**Current focus:** Phase 3 - Optimization (Almgren-Chriss, execution strategies)
 
 ## Current Position
 
-Phase: 2 of 4 (Cost Analytics)
-Plan: 3 of 3 in current phase
-Status: Phase complete
-Last activity: 2026-01-19 - Completed 02-03-PLAN.md (Market Impact Estimation)
+Phase: 3 of 4 (Optimization)
+Plan: 1 of 3 in current phase
+Status: In progress
+Last activity: 2026-01-19 - Completed 03-01-PLAN.md (Almgren-Chriss Framework)
 
-Progress: [#####-----] 50%
+Progress: [######----] 60%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 5
+- Total plans completed: 6
 - Average duration: 4m
-- Total execution time: 20m
+- Total execution time: 25m
 
 **By Phase:**
 
@@ -29,11 +29,11 @@ Progress: [#####-----] 50%
 |-------|-------|-------|----------|
 | 1. Foundation | 2/2 | 7m | 3.5m |
 | 2. Cost Analytics | 3/3 | 13m | 4.3m |
-| 3. Optimization | 0/TBD | - | - |
+| 3. Optimization | 1/3 | 5m | 5m |
 | 4. Simulation | 0/TBD | - | - |
 
 **Recent Trend:**
-- Last 5 plans: 01-01 (3m), 01-02 (4m), 02-01 (3m), 02-02 (4m), 02-03 (6m)
+- Last 5 plans: 01-02 (4m), 02-01 (3m), 02-02 (4m), 02-03 (6m), 03-01 (5m)
 - Trend: stable
 
 *Updated after each plan completion*
@@ -57,6 +57,9 @@ Recent decisions affecting current work:
 - [02-03]: Square-root model as SECONDARY validation (calibrated for equity markets, not prediction markets)
 - [02-03]: Participation rate thresholds: HIGH (<1%), MEDIUM (1-10%), LOW (>10%)
 - [02-03]: Permanent impact = 40% of temporary (conservative default for thin markets)
+- [03-01]: Risk-neutral (lambda=0) produces TWAP automatically via A-C math
+- [03-01]: eta_tilde constraint violation falls back to TWAP with warning
+- [03-01]: A-C heuristics: 1% ADV = full spread (temp), 10% ADV = full spread (perm)
 
 ### Pending Todos
 
@@ -69,5 +72,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-01-19
-Stopped at: Completed 02-03-PLAN.md (Market Impact Estimation) - Phase 2 complete
+Stopped at: Completed 03-01-PLAN.md - Almgren-Chriss Framework
 Resume file: None
