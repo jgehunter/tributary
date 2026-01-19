@@ -5,23 +5,23 @@
 See: .planning/PROJECT.md (updated 2026-01-19)
 
 **Core value:** Demonstrably reduce execution costs vs naive approaches
-**Current focus:** Phase 4 - Simulation (backtesting engine)
+**Current focus:** Phase 4 - Simulation (COMPLETE)
 
 ## Current Position
 
 Phase: 4 of 4 (Simulation)
-Plan: 2 of 3 in current phase
-Status: In progress
-Last activity: 2026-01-19 - Completed 04-02-PLAN.md (engine and runner)
+Plan: 3 of 3 in current phase
+Status: PHASE COMPLETE
+Last activity: 2026-01-19 - Completed 04-03-PLAN.md (metrics and comparison)
 
-Progress: [#########-] 90%
+Progress: [##########] 100%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 10
-- Average duration: 4.7m
-- Total execution time: 47m
+- Total plans completed: 11
+- Average duration: 4.8m
+- Total execution time: 53m
 
 **By Phase:**
 
@@ -30,10 +30,10 @@ Progress: [#########-] 90%
 | 1. Foundation | 2/2 | 7m | 3.5m |
 | 2. Cost Analytics | 3/3 | 13m | 4.3m |
 | 3. Optimization | 3/3 | 18m | 6.0m |
-| 4. Simulation | 2/3 | 9m | 4.5m |
+| 4. Simulation | 3/3 | 15m | 5.0m |
 
 **Recent Trend:**
-- Last 5 plans: 03-01 (5m), 03-02 (8m), 03-03 (5m), 04-01 (4m), 04-02 (5m)
+- Last 5 plans: 03-02 (8m), 03-03 (5m), 04-01 (4m), 04-02 (5m), 04-03 (6m)
 - Trend: stable
 
 *Updated after each plan completion*
@@ -73,6 +73,9 @@ Recent decisions affecting current work:
 - [04-02]: Orders execute against most recent market state at or before order time (no lookahead)
 - [04-02]: Fresh FillModel per strategy for isolated execution in StrategyRunner
 - [04-02]: StrategyRun dataclass provides convenience aggregation properties
+- [04-03]: Risk-adjusted score = IS / sqrt(variance) for cost-risk tradeoff ranking
+- [04-03]: Comparison returns sorted DataFrame (lower is better)
+- [04-03]: Chart data in long format for compatibility with visualization libraries
 
 ### Pending Todos
 
@@ -84,6 +87,19 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-01-19 19:05 UTC
-Stopped at: Completed 04-02-PLAN.md (engine and runner)
+Last session: 2026-01-19 19:12 UTC
+Stopped at: Completed 04-03-PLAN.md (metrics and comparison) - PHASE 4 COMPLETE
 Resume file: None
+
+## Project Complete
+
+All 4 phases have been completed:
+
+1. **Foundation** (2 plans) - QuestDB reader, benchmarks
+2. **Cost Analytics** (3 plans) - Slippage, shortfall, walk-the-book, market impact
+3. **Optimization** (3 plans) - Almgren-Chriss, TWAP/VWAP/market order, scheduler, comparison
+4. **Simulation** (3 plans) - Events, fill model, engine, runner, metrics, comparison
+
+**Core value proposition proven:**
+- TWAP saves 171 bps vs market order on 3000-unit order
+- Simulation engine demonstrates optimized execution reduces costs
