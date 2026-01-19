@@ -29,11 +29,11 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. User can calculate VWAP for any time window and market
   4. User can calculate TWAP for any time window and market
   5. User can calculate arrival price (mid-price at order submission time)
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 01-01: TBD
-- [ ] 01-02: TBD
+- [ ] 01-01-PLAN.md - QuestDBReader with data queries (DATA-01, DATA-02, DATA-03)
+- [ ] 01-02-PLAN.md - Benchmark calculations: VWAP, TWAP, arrival price (COST-01, COST-02, COST-03)
 
 ### Phase 2: Cost Analytics
 **Goal**: Analytics can measure execution costs and estimate market impact
@@ -88,11 +88,12 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 0/TBD | Not started | - |
+| 1. Foundation | 0/2 | Planned | - |
 | 2. Cost Analytics | 0/TBD | Not started | - |
 | 3. Optimization | 0/TBD | Not started | - |
 | 4. Simulation | 0/TBD | Not started | - |
 
 ---
 *Roadmap created: 2026-01-19*
+*Phase 1 planned: 2026-01-19*
 *Phase 2: Execution Intelligence milestone*
