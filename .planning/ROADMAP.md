@@ -15,7 +15,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 1: Foundation** - QuestDB reader and core benchmarks (VWAP, TWAP, arrival price)
 - [x] **Phase 2: Cost Analytics** - Slippage measurement and market impact estimation
 - [x] **Phase 3: Optimization** - Almgren-Chriss framework and execution strategies
-- [ ] **Phase 4: Simulation** - Backtesting engine that proves better execution
+- [x] **Phase 4: Simulation** - Backtesting engine that proves better execution
 
 ## Phase Details
 
@@ -80,9 +80,9 @@ Plans:
 **Plans**: 3 plans
 
 Plans:
-- [ ] 04-01-PLAN.md - Event types and fill model with liquidity consumption (SIM-01, SIM-02)
-- [ ] 04-02-PLAN.md - Simulation engine and multi-strategy runner (SIM-01, SIM-03)
-- [ ] 04-03-PLAN.md - Metrics calculation and strategy comparison (SIM-04, SIM-05)
+- [x] 04-01-PLAN.md - Event types and fill model with liquidity consumption (SIM-01, SIM-02)
+- [x] 04-02-PLAN.md - Simulation engine and multi-strategy runner (SIM-01, SIM-03)
+- [x] 04-03-PLAN.md - Metrics calculation and strategy comparison (SIM-04, SIM-05)
 
 ## Progress
 
@@ -94,7 +94,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 | 1. Foundation | 2/2 | Complete | 2026-01-19 |
 | 2. Cost Analytics | 3/3 | Complete | 2026-01-19 |
 | 3. Optimization | 3/3 | Complete | 2026-01-19 |
-| 4. Simulation | 0/3 | Planned | - |
+| 4. Simulation | 3/3 | Complete | 2026-01-19 |
 
 ---
 *Roadmap created: 2026-01-19*
@@ -105,3 +105,4 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 *Phase 3 planned: 2026-01-19*
 *Phase 3 complete: 2026-01-19*
 *Phase 4 planned: 2026-01-19*
+*Phase 4 complete: 2026-01-19*

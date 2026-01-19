@@ -38,11 +38,11 @@ Requirements for Phase 2: Execution Intelligence. Each maps to roadmap phases.
 
 ### Simulation
 
-- [ ] **SIM-01**: Event-driven execution simulation engine
-- [ ] **SIM-02**: Realistic fill models using actual orderbook depth
-- [ ] **SIM-03**: Run multiple strategies on same historical data
-- [ ] **SIM-04**: Compare strategy results with clear metrics (cost, risk, shortfall)
-- [ ] **SIM-05**: Prove better execution vs naive approaches through backtesting
+- [x] **SIM-01**: Event-driven execution simulation engine
+- [x] **SIM-02**: Realistic fill models using actual orderbook depth
+- [x] **SIM-03**: Run multiple strategies on same historical data
+- [x] **SIM-04**: Compare strategy results with clear metrics (cost, risk, shortfall)
+- [x] **SIM-05**: Prove better execution vs naive approaches through backtesting
 
 ## v2 Requirements
 
@@ -103,11 +103,11 @@ Which phases cover which requirements. Updated during roadmap creation.
 | OPT-04 | Phase 3 | Complete |
 | OPT-05 | Phase 3 | Complete |
 | OPT-06 | Phase 3 | Complete |
-| SIM-01 | Phase 4 | Pending |
-| SIM-02 | Phase 4 | Pending |
-| SIM-03 | Phase 4 | Pending |
-| SIM-04 | Phase 4 | Pending |
-| SIM-05 | Phase 4 | Pending |
+| SIM-01 | Phase 4 | Complete |
+| SIM-02 | Phase 4 | Complete |
+| SIM-03 | Phase 4 | Complete |
+| SIM-04 | Phase 4 | Complete |
+| SIM-05 | Phase 4 | Complete |
 
 **Coverage:**
 - v1 requirements: 22 total
@@ -116,4 +116,4 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 ---
 *Requirements defined: 2026-01-19*
-*Last updated: 2026-01-19 after Phase 3 completion*
+*Last updated: 2026-01-19 after Phase 4 completion*
